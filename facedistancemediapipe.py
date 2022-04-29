@@ -6,7 +6,7 @@ mp_face = mp.solutions.face_detection.FaceDetection(model_selection=1,min_detect
 cap=cv2.VideoCapture(0)
 width=640
 height=480
-Known_distance = 80.0
+Known_distance = 69.0
 Known_width = 14.0
 a=[]
 def Focal_Length_Finder(Known_distance, real_width, width_in_rf_image):
