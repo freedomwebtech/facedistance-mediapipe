@@ -8,7 +8,6 @@ height=480
 
 
 def obj_data(img):
-    obj_width=0
     image_input = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     results = mp_face.process(image_input)
     if not results.detections:
